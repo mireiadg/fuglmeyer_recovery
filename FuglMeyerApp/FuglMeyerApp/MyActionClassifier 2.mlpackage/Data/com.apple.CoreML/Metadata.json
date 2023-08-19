@@ -1,0 +1,18 @@
+{
+  "MLModelVersionStringKey" : "--",
+  "MLModelDescriptionKey" : "--",
+  "MLModelCreatorDefinedKey" : {
+    "target" : "label",
+    "Target Frame Rate" : "30.0",
+    "com.apple.coreml.model.preview.type" : "actionClassifier",
+    "com.apple.createml.version" : "13.3.1",
+    "classes" : "180front,90lateral,ear,front,other",
+    "com.apple.createml.app.tag" : "99.4",
+    "max_iterations" : "70",
+    "type" : "action_classification",
+    "com.apple.createml.app.version" : "4.0",
+    "Prediction Window Size" : "30"
+  },
+  "MLModelAuthorKey" : "Mireia de Gracia",
+  "MLModelLicenseKey" : "--"
+}

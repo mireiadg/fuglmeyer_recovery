@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E058EFD2A5EF3F10072C243 /* Fugl_meyer_separate 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8E058EFC2A5EF3F10072C243 /* Fugl_meyer_separate 1.mlmodel */; };
+		8E058F002A5EF69E0072C243 /* sound_test_ear.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8E058EFE2A5EF69E0072C243 /* sound_test_ear.wav */; };
+		8E058F012A5EF69E0072C243 /* sound_test_arm.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8E058EFF2A5EF69E0072C243 /* sound_test_arm.wav */; };
+		8E058F032A5EFC2A0072C243 /* Fugl_meyer_separate 2 Iteration 40.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8E058F022A5EFC2A0072C243 /* Fugl_meyer_separate 2 Iteration 40.mlmodel */; };
+		8E11A0CC2A17F516008CF011 /* fugl_meyer_test 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8E11A0CB2A17F516008CF011 /* fugl_meyer_test 1.mlmodel */; };
+		8E473A5D2A4C8F01006BF72C /* Fugl-meyer-classifier 2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8E473A5C2A4C8F01006BF72C /* Fugl-meyer-classifier 2.mlmodel */; };
+		8E50EED92A1643BE00B79E9E /* Predictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E50EED82A1643BE00B79E9E /* Predictor.swift */; };
+		8E5463AC2A14E5AF000E626C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5463AB2A14E5AF000E626C /* AppDelegate.swift */; };
+		8E5463AE2A14E5AF000E626C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5463AD2A14E5AF000E626C /* SceneDelegate.swift */; };
+		8E5463B02A14E5AF000E626C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5463AF2A14E5AF000E626C /* ViewController.swift */; };
+		8E5463B32A14E5AF000E626C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E5463B12A14E5AF000E626C /* Main.storyboard */; };
+		8E5463B52A14E5B0000E626C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E5463B42A14E5B0000E626C /* Assets.xcassets */; };
+		8E5463B82A14E5B0000E626C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E5463B62A14E5B0000E626C /* LaunchScreen.storyboard */; };
+		8E5463C02A14E6A8000E626C /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5463BF2A14E6A8000E626C /* VideoCapture.swift */; };
+		8E63FCA12A40F3F8006B0FBF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E63FCA02A40F3F8006B0FBF /* Launch Screen.storyboard */; };
+		8E63FCA32A40F6A2006B0FBF /* Untitled design-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E63FCA22A40F6A2006B0FBF /* Untitled design-2.png */; };
+		8E63FCA52A40F903006B0FBF /* TutorialBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E63FCA42A40F903006B0FBF /* TutorialBoard.storyboard */; };
+		8E63FCA72A40FB6A006B0FBF /* Captura de pantalla 2023-06-19 a las 23.08.38.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E63FCA62A40FB6A006B0FBF /* Captura de pantalla 2023-06-19 a las 23.08.38.png */; };
+		8E8595502A533DC10013FF03 /* Fugl_meyer_test 9 Iteration 40.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8E85954F2A533DC10013FF03 /* Fugl_meyer_test 9 Iteration 40.mlmodel */; };
+		8E8595522A53622A0013FF03 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8E8595512A53622A0013FF03 /* README.md */; };
+		8EE8B5712A38F66A00B9A238 /* MyActionClassifier 2.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8B5702A38F66A00B9A238 /* MyActionClassifier 2.mlpackage */; };
+		8EFC4B6A2A786292009DA6D0 /* FuglMeyerActionClassifier 1 Iteration 40.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8EFC4B692A786292009DA6D0 /* FuglMeyerActionClassifier 1 Iteration 40.mlmodel */; };
+		8EFDC7AD2A8BE07900B32868 /* FuglMeyerActionClassifier 3 Iteration 60.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8EFDC7AC2A8BE07900B32868 /* FuglMeyerActionClassifier 3 Iteration 60.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E058EFC2A5EF3F10072C243 /* Fugl_meyer_separate 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "Fugl_meyer_separate 1.mlmodel"; sourceTree = "<group>"; };
+		8E058EFE2A5EF69E0072C243 /* sound_test_ear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound_test_ear.wav; sourceTree = "<group>"; };
+		8E058EFF2A5EF69E0072C243 /* sound_test_arm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound_test_arm.wav; sourceTree = "<group>"; };
+		8E058F022A5EFC2A0072C243 /* Fugl_meyer_separate 2 Iteration 40.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "Fugl_meyer_separate 2 Iteration 40.mlmodel"; sourceTree = "<group>"; };
+		8E11A0CB2A17F516008CF011 /* fugl_meyer_test 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "fugl_meyer_test 1.mlmodel"; sourceTree = "<group>"; };
+		8E473A5C2A4C8F01006BF72C /* Fugl-meyer-classifier 2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "Fugl-meyer-classifier 2.mlmodel"; sourceTree = "<group>"; };
+		8E50EED82A1643BE00B79E9E /* Predictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predictor.swift; sourceTree = "<group>"; };
+		8E5463A82A14E5AF000E626C /* FuglMeyerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuglMeyerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5463AB2A14E5AF000E626C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E5463AD2A14E5AF000E626C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8E5463AF2A14E5AF000E626C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E5463B22A14E5AF000E626C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E5463B42A14E5B0000E626C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E5463B72A14E5B0000E626C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E5463B92A14E5B0000E626C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E5463BF2A14E6A8000E626C /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		8E63FCA02A40F3F8006B0FBF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		8E63FCA22A40F6A2006B0FBF /* Untitled design-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled design-2.png"; sourceTree = "<group>"; };
+		8E63FCA42A40F903006B0FBF /* TutorialBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TutorialBoard.storyboard; sourceTree = "<group>"; };
+		8E63FCA62A40FB6A006B0FBF /* Captura de pantalla 2023-06-19 a las 23.08.38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Captura de pantalla 2023-06-19 a las 23.08.38.png"; sourceTree = "<group>"; };
+		8E85954F2A533DC10013FF03 /* Fugl_meyer_test 9 Iteration 40.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "Fugl_meyer_test 9 Iteration 40.mlmodel"; sourceTree = "<group>"; };
+		8E8595512A53622A0013FF03 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8EE8B5702A38F66A00B9A238 /* MyActionClassifier 2.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = "MyActionClassifier 2.mlpackage"; sourceTree = "<group>"; };
+		8EFC4B692A786292009DA6D0 /* FuglMeyerActionClassifier 1 Iteration 40.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "FuglMeyerActionClassifier 1 Iteration 40.mlmodel"; sourceTree = "<group>"; };
+		8EFDC7AC2A8BE07900B32868 /* FuglMeyerActionClassifier 3 Iteration 60.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "FuglMeyerActionClassifier 3 Iteration 60.mlmodel"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E5463A52A14E5AF000E626C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E54639F2A14E5AF000E626C = {
+			isa = PBXGroup;
+			children = (
+				8E63FCA42A40F903006B0FBF /* TutorialBoard.storyboard */,
+				8E63FCA02A40F3F8006B0FBF /* Launch Screen.storyboard */,
+				8E8595512A53622A0013FF03 /* README.md */,
+				8E5463AA2A14E5AF000E626C /* FuglMeyerApp */,
+				8E5463A92A14E5AF000E626C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E5463A92A14E5AF000E626C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E5463A82A14E5AF000E626C /* FuglMeyerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E5463AA2A14E5AF000E626C /* FuglMeyerApp */ = {
+			isa = PBXGroup;
+			children = (
+				8E50EED82A1643BE00B79E9E /* Predictor.swift */,
+				8E11A0CB2A17F516008CF011 /* fugl_meyer_test 1.mlmodel */,
+				8E5463AB2A14E5AF000E626C /* AppDelegate.swift */,
+				8E5463AD2A14E5AF000E626C /* SceneDelegate.swift */,
+				8E5463AF2A14E5AF000E626C /* ViewController.swift */,
+				8E5463B12A14E5AF000E626C /* Main.storyboard */,
+				8E5463B42A14E5B0000E626C /* Assets.xcassets */,
+				8E5463B62A14E5B0000E626C /* LaunchScreen.storyboard */,
+				8E5463B92A14E5B0000E626C /* Info.plist */,
+				8E5463BF2A14E6A8000E626C /* VideoCapture.swift */,
+				8EE8B5702A38F66A00B9A238 /* MyActionClassifier 2.mlpackage */,
+				8E63FCA22A40F6A2006B0FBF /* Untitled design-2.png */,
+				8E63FCA62A40FB6A006B0FBF /* Captura de pantalla 2023-06-19 a las 23.08.38.png */,
+				8EFDC7AC2A8BE07900B32868 /* FuglMeyerActionClassifier 3 Iteration 60.mlmodel */,
+				8E473A5C2A4C8F01006BF72C /* Fugl-meyer-classifier 2.mlmodel */,
+				8E85954F2A533DC10013FF03 /* Fugl_meyer_test 9 Iteration 40.mlmodel */,
+				8E058EFC2A5EF3F10072C243 /* Fugl_meyer_separate 1.mlmodel */,
+				8E058EFF2A5EF69E0072C243 /* sound_test_arm.wav */,
+				8E058EFE2A5EF69E0072C243 /* sound_test_ear.wav */,
+				8E058F022A5EFC2A0072C243 /* Fugl_meyer_separate 2 Iteration 40.mlmodel */,
+				8EFC4B692A786292009DA6D0 /* FuglMeyerActionClassifier 1 Iteration 40.mlmodel */,
+			);
+			path = FuglMeyerApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E5463A72A14E5AF000E626C /* FuglMeyerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E5463BC2A14E5B0000E626C /* Build configuration list for PBXNativeTarget "FuglMeyerApp" */;
+			buildPhases = (
+				8E5463A42A14E5AF000E626C /* Sources */,
+				8E5463A52A14E5AF000E626C /* Frameworks */,
+				8E5463A62A14E5AF000E626C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuglMeyerApp;
+			productName = FuglMeyerApp;
+			productReference = 8E5463A82A14E5AF000E626C /* FuglMeyerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E5463A02A14E5AF000E626C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8E5463A72A14E5AF000E626C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8E5463A32A14E5AF000E626C /* Build configuration list for PBXProject "FuglMeyerApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E54639F2A14E5AF000E626C;
+			productRefGroup = 8E5463A92A14E5AF000E626C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E5463A72A14E5AF000E626C /* FuglMeyerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E5463A62A14E5AF000E626C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E058F002A5EF69E0072C243 /* sound_test_ear.wav in Resources */,
+				8E63FCA72A40FB6A006B0FBF /* Captura de pantalla 2023-06-19 a las 23.08.38.png in Resources */,
+				8E8595522A53622A0013FF03 /* README.md in Resources */,
+				8E5463B82A14E5B0000E626C /* LaunchScreen.storyboard in Resources */,
+				8E5463B52A14E5B0000E626C /* Assets.xcassets in Resources */,
+				8E63FCA52A40F903006B0FBF /* TutorialBoard.storyboard in Resources */,
+				8E63FCA32A40F6A2006B0FBF /* Untitled design-2.png in Resources */,
+				8E63FCA12A40F3F8006B0FBF /* Launch Screen.storyboard in Resources */,
+				8E5463B32A14E5AF000E626C /* Main.storyboard in Resources */,
+				8E058F012A5EF69E0072C243 /* sound_test_arm.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E5463A42A14E5AF000E626C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E473A5D2A4C8F01006BF72C /* Fugl-meyer-classifier 2.mlmodel in Sources */,
+				8E5463C02A14E6A8000E626C /* VideoCapture.swift in Sources */,
+				8E5463B02A14E5AF000E626C /* ViewController.swift in Sources */,
+				8E5463AC2A14E5AF000E626C /* AppDelegate.swift in Sources */,
+				8E058F032A5EFC2A0072C243 /* Fugl_meyer_separate 2 Iteration 40.mlmodel in Sources */,
+				8E11A0CC2A17F516008CF011 /* fugl_meyer_test 1.mlmodel in Sources */,
+				8EFDC7AD2A8BE07900B32868 /* FuglMeyerActionClassifier 3 Iteration 60.mlmodel in Sources */,
+				8E058EFD2A5EF3F10072C243 /* Fugl_meyer_separate 1.mlmodel in Sources */,
+				8E8595502A533DC10013FF03 /* Fugl_meyer_test 9 Iteration 40.mlmodel in Sources */,
+				8E50EED92A1643BE00B79E9E /* Predictor.swift in Sources */,
+				8EFC4B6A2A786292009DA6D0 /* FuglMeyerActionClassifier 1 Iteration 40.mlmodel in Sources */,
+				8EE8B5712A38F66A00B9A238 /* MyActionClassifier 2.mlpackage in Sources */,
+				8E5463AE2A14E5AF000E626C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E5463B12A14E5AF000E626C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E5463B22A14E5AF000E626C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E5463B62A14E5B0000E626C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E5463B72A14E5B0000E626C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E5463BA2A14E5B0000E626C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E5463BB2A14E5B0000E626C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E5463BD2A14E5B0000E626C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FDY3VT8MUP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FuglMeyerApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app would like to access your camera for exercise detection.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MireiaDeGracia.FuglMeyerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E5463BE2A14E5B0000E626C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FDY3VT8MUP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FuglMeyerApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app would like to access your camera for exercise detection.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MireiaDeGracia.FuglMeyerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E5463A32A14E5AF000E626C /* Build configuration list for PBXProject "FuglMeyerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E5463BA2A14E5B0000E626C /* Debug */,
+				8E5463BB2A14E5B0000E626C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E5463BC2A14E5B0000E626C /* Build configuration list for PBXNativeTarget "FuglMeyerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E5463BD2A14E5B0000E626C /* Debug */,
+				8E5463BE2A14E5B0000E626C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E5463A02A14E5AF000E626C /* Project object */;
+}
